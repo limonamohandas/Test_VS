@@ -1,10 +1,4 @@
-create table test
-(
-id integer,
-name varchar(100)
-);
-
-create table test2
+create table if not exists test
 (
 id integer,
 name varchar(100)
