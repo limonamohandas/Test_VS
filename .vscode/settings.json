@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "schema": "PUBLIC",
+                "role": "SYSADMIN"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "VSTest",
+            "group": "Snowflake",
+            "account": "au12319.eu-west-2.aws",
+            "username": "limonamohandas",
+            "password": "Akash1234.",
+            "database": "DEMO_DB",
+            "warehouse": "COMPUTE_WH"
+        }
+    ]
+}
